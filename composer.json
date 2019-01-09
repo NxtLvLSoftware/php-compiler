@@ -1,0 +1,19 @@
+{
+    "name": "jacknoordhuis/php-compiler",
+    "description": "A simple tool to generate a single php file from a project and it's dependencies.",
+    "authors": [
+        {
+            "name": "Jack Noordhuis",
+            "email": "me@jacknoordhuis.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "nikic/php-parser": "^4.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jacknoordhuis\\phpcompiler\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+# ide things
+.idea
+
+# osx rubbish
+.DS_Store
+
+#composer
+vendor
+
+# testing output
+*/out.txt
+build
